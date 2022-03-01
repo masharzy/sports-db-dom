@@ -13,16 +13,21 @@
 <body>
    <div class="container">
        <div class="row w-100 m-auto">
-           <div class="col-md-6 text-center">
-               <h1>Left Side !!</h1>
+           <div class="col-md-12 text-center">
+               <h1>Search Here</h1>
                 <div class="input-group mb-3">
                     <input type="text" class="form-control" id="search-form" placeholder="Search Here...">
                     <input onclick="allPlayers()" class="btn btn-outline-secondary" type="submit" value="Search" id="search-btn"></input>
                 </div>
+                <div id="error-msg">  </div>
+                <div id="player-details-container" class="row justify-content-center g-3">
+
+                </div>
+                <img id="spinner" class="w-100" src="images/spinner.gif" alt="">
+                <div id="player-container" class="player-container row row-cols-1 row-cols-md-3 g-4">
+
+                </div>
             </div>
-           <div class="col-md-6 text-center">
-               <h1>Right Side !!</h1>
-           </div>
        </div>
    </div>
 
